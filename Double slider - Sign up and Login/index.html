@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Slider Login / Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container" id="container">
+
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Register hire.</h1>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Register</button>
+                <span>or use your account</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa-brands fa-facebook"
+                            style="font-size: 24px; color: blue;"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-google"
+                            style="font-size: 24px; color: red;"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-linkedin"
+                            style="font-size: 24px; color: #0077b5;"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Login hire.</h1>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label>Remember me</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                <button>Login</button>
+                <span>or use your account</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa-brands fa-facebook"
+                            style="font-size: 24px; color: blue;"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-google"
+                            style="font-size: 24px; color: red;"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-linkedin"
+                            style="font-size: 24px; color: #0077b5;"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Hello <br>friends</h1>
+                    <p>if you have an account, login here and have fun</p>
+                    <button class="gost" id="login">Login
+                        <i class="fa-solid fa-arrow-left" style="font-size: 12px;"></i>
+                    </button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Start your <br>journey now</h1>
+                    <p>if you don't have an account yet, join us and start your journey.</p>
+                    <button class="ghost" id="register">Register
+                        <i class="fa-solid fa-arrow-right" style="font-size: 12px;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
